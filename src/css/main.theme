@@ -1,0 +1,4 @@
+custom-properties {
+	--font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+	--text-color:  white;
+}

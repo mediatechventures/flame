@@ -1,0 +1,24 @@
+{
+  "name": "flame",
+  "version": "1.0.0-beta1",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediatechventures/flame.git"
+  },
+  "author": "Corey Butler",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mediatechventures/flame/issues"
+  },
+  "homepage": "https://github.com/mediatechventures/flame#readme",
+  "devDependencies": {
+    "@chassis/core": "^2.4.4",
+    "fs-extra": "^8.1.0"
+  }
+}

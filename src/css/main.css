@@ -1,0 +1,82 @@
+@chassis init;
+
+body {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & > header, & > footer {
+    @chassis apply inline-block padding-y;
+
+    & .width.constraint {
+      display: flex;
+      align-items: center;
+    }
+
+    & h1 {
+      margin: 0;
+    }
+
+    & .logo {
+      flex: 0 0 3.82em;
+      margin-right: var(--inline-block-padding-x);
+
+      & img {
+        max-width: 3.82em;
+      }
+    }
+  }
+
+  & > header {
+    opacity: .618;
+  }
+
+  & > main {
+    padding: 1.618em 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    & .width.constraint {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    & .typeform-widget {
+      max-width: 100%;
+      width: 500px;
+      height: 100%;
+      min-height: 300px;
+    }
+  }
+
+  & > footer {
+    opacity: .618;
+
+    & .width.constraint {
+      justify-content: flex-end;
+      align-items: center;
+      color: color-mod(white a(75%));
+    }
+
+    & .logo {
+      flex-basis: 6.18em;
+      margin-right: 0;
+      margin-left: var(--inline-block-padding-x);
+
+      & img {
+        max-width: 6.18em;
+        vertical-align: middle;
+      }
+    }
+
+    & ~pre {
+      display: none;
+    }
+  }
+}
