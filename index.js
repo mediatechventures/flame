@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs-extra')
 const src = path.join(process.cwd(), 'src')
-const dist = path.join(process.cwd(), 'dist')
+const dist = path.join(process.cwd(), 'docs')
 const Chassis = require('@chassis/core')
 const chassis = new Chassis({
   minify: true,
